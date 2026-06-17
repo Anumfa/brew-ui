@@ -1,0 +1,52 @@
+.welcome-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.welcome-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.welcome-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2rem;
+}
+
+.welcome-title {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.welcome-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  color: #E0E0E0;
+}
+
+.welcome-btn {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+}
